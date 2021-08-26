@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-size: 14.4px;
+    color: #000;
+    background-color: #f1f57c;
+}
+
+.navbar-brand h1 {
+    font-size: 27px;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 9;
+    margin-bottom: 0;
+    line-height: .99;
+    color: rgb(12, 12, 12);
+}
+
+h1 span {
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(51, 50, 50);
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#nav-list {
+    margin-top: 9px;
+}
+
+#nav-list a {
+    color: rgb(3, 3, 3);
+    text-align: center;
+    background-color: grey;
+}
+
+#nav-list a:hover {
+    background-color: #f5bb94;
+}
+
+#menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(7, 7, 7);
+    font-size: 36px;
+    word-spacing: 6px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu-item-tile {
+    margin-bottom: 25px;
+}
+.menu-item-tile hr {
+    width: 80%;
+}
+
+h3.menu-item-title {
+    margin: 0 0 10px;
+    font-size: 21px;
+}
+
+#Chai, #Coffee, #CoC {
+    text-align: center;
+    background-color: rgb(153, 91, 91);
+}
+
+div h3, div p {
+    background-color: whitesmoke;
+}
+
+/* Extra small devices only */
+@media (max-width: 767px) {
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1 {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    #collapsable-nav a {
+        font-size: 18px;
+    }
+    #collapsable-nav a span {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+}
+
+/* Super extra small devices Only */
+@media (max-width: 479px) {
+    .navbar-brand h1 {
+        padding-top: 5px;
+        font-size: 18px;
+    }
+}
